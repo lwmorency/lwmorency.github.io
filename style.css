@@ -97,8 +97,8 @@ h6 {
 	position: relative;
 }
 .banner {
-	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: #1e90ff; /* Dodger Blue */
+	background: linear-gradient(to left, #1e90ff, #63b8ff);
 	padding:100px 0px;
 	position:relative;
 }
