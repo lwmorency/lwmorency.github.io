@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Luke Morency</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg" style="background-color: #007bff;">
+<div class="container">
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"> <span class="fas fa-bars"></span> </button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item"> <a class="nav-link" href="index.html" style="color: white;">Home</a> </li>
+<li class="nav-item"> <a class="nav-link" href="about.html" style="color: white;">About</a> </li>
+<li class="nav-item"> <a class="nav-link" href="cv.html" style="color: white;">CV</a> </li>
+<li class="nav-item"> <a class="nav-link" href="contact.html" style="color: white;">Contact</a> </li>
+</ul>
+</div>
+</div>
+</nav>
+
+<header class="text-center p-5" style="background-color: #007bff; color: white;">
+  <h1>Contact Me</h1>
+  <p>Let’s connect</p>
+</header>
+<section class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <form action="https://formspree.io/f/xqaewpev" method="POST">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" class="form-control" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" class="form-control" id="email" name="_replyto" required />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" name="subject" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="text-center py-4 bg-light">
+  <p>&copy; 2025 Luke Morency | All rights reserved.</p>
+</footer>
+</body>
+</html>
